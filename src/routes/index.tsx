@@ -23,7 +23,6 @@ import {
   Compass,
   Waves,
   Sprout,
-  Leaf,
 } from "lucide-react";
 import { Sidebar } from "@/components/dashboard/Sidebar";
 import { Gauge } from "@/components/dashboard/Gauge";
