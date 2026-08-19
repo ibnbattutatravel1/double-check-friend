@@ -170,3 +170,28 @@
     color: var(--color-foreground);
   }
 }
+
+@layer base {
+  body {
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+@utility card-surface {
+  background-color: var(--card);
+  border-radius: 1.25rem;
+  box-shadow: var(--shadow-card);
+}
+
+@utility bg-gradient-hero {
+  background-image: var(--gradient-hero);
+}
+
+@utility bg-gradient-night {
+  background-image: var(--gradient-night);
+}
+
+@utility shadow-hero {
+  box-shadow: var(--shadow-hero);
+}
